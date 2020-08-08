@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #F0F0F0;
+  background: url(Assets/Images/Illustration1.png) -20% 110% no-repeat, url(Assets/Images/Illustration2.png) 120% -20% no-repeat, url(Assets/Images/Illustration3.png) left no-repeat, url(Assets/Images/Illustration4.png) right no-repeat;
 }
 
 .App-logo {
@@ -35,4 +37,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-img {
+  height: 300px;
+  width: 300px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
